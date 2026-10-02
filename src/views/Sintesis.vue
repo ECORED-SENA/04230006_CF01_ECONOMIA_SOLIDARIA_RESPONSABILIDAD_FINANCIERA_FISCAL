@@ -2,13 +2,13 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+      p La síntesis integra los conceptos principales desarrollados en el componente formativo:
       .row.justify-content-center
-        .col-lg-10.mb-5.bgs.p-4.brad
+        .col-lg-12.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+            img(src="@/assets/curso/sintesis.svg", alt="Mapa conceptual del componente formativo Gestión financiera solidaria y hechos económicos, el cual se estructura en cinco temas. El primero integra los fundamentos financieros de la economía solidaria, incluidos sus principios, recursos monetarios, fondos solidarios, órganos de administración y control, y participación democrática. El segundo comprende la administración de fondos y excedentes, mediante su identificación, reglamentación, destinación, seguimiento y rendición de cuentas. El tercero aborda los hechos económicos, la clasificación y dinámica de las cuentas, su reconocimiento, medición y registro. El cuarto incluye los soportes contables, su elaboración, la normativa aplicable, las autoridades de control y la conservación documental. El quinto considera los estados financieros, desde su concepto y preparación hasta su presentación, interpretación y seguimiento de los recursos.")
         .col-auto
-          a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+          a.anexo.mb-0(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/bullets/icono-pdf.svg")
             .anexo__texto

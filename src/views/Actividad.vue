@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario de verificación sobre gestión financiera solidaria y hechos económicos.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la comprensión de los principios financieros de la economía solidaria y la capacidad para identificar fondos, analizar la destinación de excedentes, reconocer hechos económicos, clasificar cuentas, revisar soportes contables e interpretar información básica de los estados financieros de una organización solidaria.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,60 +30,32 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la finalidad principal de la gestión financiera en una organización de economía solidaria?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Priorizar la rentabilidad de los aportes sobre los programas de beneficio colectivo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Administrar los recursos con sostenibilidad, transparencia y orientación al beneficio colectivo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Asignar los recursos según las decisiones operativas adoptadas por cada dependencia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
+              texto:
+                'Concentrar la gestión financiera en el cumplimiento de las metas de corto plazo.',
               esCorrecta: false,
             },
           ],
@@ -91,29 +63,69 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          id: 2,
+          texto:
+            'Una cooperativa desea identificar los fondos establecidos formalmente en su organización. ¿Qué documentos debe revisar principalmente?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El presupuesto anual, los extractos bancarios, las órdenes de compra y las facturas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Los contratos laborales, los comprobantes de nómina, las declaraciones y las conciliaciones.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Los informes de gestión, las solicitudes de afiliación, las cotizaciones y los contratos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Los estatutos, las actas de asamblea, los reglamentos y los registros contables.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál de los siguientes elementos debe incluirse en el reglamento de un fondo monetario?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La finalidad, los beneficiarios, los usos autorizados, los límites y el procedimiento de aprobación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'La fuente de financiación, el saldo bancario, el número de cuenta y el responsable operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El cronograma anual, la relación de asociados, las metas institucionales y la proyección de ingresos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El tipo de organización, la estructura administrativa, el inventario de bienes y el plan de compras.',
               esCorrecta: false,
             },
           ],
@@ -123,28 +135,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Antes de aprobar la destinación de los excedentes de una cooperativa, ¿qué debe verificarse?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El saldo bancario disponible, la cartera recaudada y los pagos efectuados durante el periodo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El presupuesto aprobado, la ejecución de fondos y los compromisos pendientes de pago.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Las pérdidas anteriores, las reservas por restablecer y las destinaciones legales y estatutarias.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Los aportes sociales, las obligaciones financieras y las compras realizadas durante el periodo.',
               esCorrecta: false,
             },
           ],
@@ -153,28 +169,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué permite verificar un plan de seguimiento a la ejecución de fondos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Los saldos de las cuentas, las conciliaciones bancarias, los pagos y los documentos archivados.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Los recursos aprobados, los valores ejecutados, las actividades, los beneficiarios y los resultados alcanzados.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El presupuesto general, los contratos celebrados, los proveedores y las obligaciones tributarias del periodo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Las reuniones realizadas, las decisiones administrativas, las solicitudes recibidas y las comunicaciones emitidas.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +205,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál actuación corresponde al control social dentro de una organización solidaria?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Verificar principios, estatutos, reglamentos y derechos de los asociados dentro de sus competencias.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Autorizar pagos y contratos que correspondan a la administración ordinaria de la organización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Elaborar comprobantes y registros contables asociados con las operaciones financieras realizadas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Dirigir la ejecución cotidiana de recursos y coordinar las actividades presupuestadas.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +240,33 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál situación constituye un hecho económico que debe analizarse para su reconocimiento contable?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Preparar una propuesta de compra para evaluar posteriormente su conveniencia económica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Analizar la posibilidad de solicitar financiación para el siguiente periodo contable.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Recibir una cotización de un proveedor sin haber aceptado todavía la operación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Recibir una factura por un servicio efectivamente prestado a la organización.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -246,28 +275,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una cooperativa recibe un aporte social mediante transferencia bancaria. ¿Cómo se clasifican sus efectos generales?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Aumenta el activo y se reconoce un ingreso por los servicios prestados.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Aumenta el activo y se reconoce una obligación financiera con el asociado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Aumenta el activo y aumenta el patrimonio de la organización.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Disminuye el activo y aumenta el patrimonio de la organización.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +310,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué efecto contable general produce la recepción de un crédito bancario?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Aumenta el patrimonio y disminuyen los pasivos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Aumentan los bancos y las obligaciones financieras.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aumentan los ingresos y las cuentas por cobrar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Disminuyen los gastos y aumenta el efectivo.',
               esCorrecta: false,
             },
           ],
@@ -307,30 +340,33 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué significa reconocer contablemente una operación?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Clasificar el soporte de la operación antes de efectuar su registro definitivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Autorizar el pago de la operación antes de incorporarla al sistema contable.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Comprobar los documentos de la operación antes de realizar su contabilización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Incorporar el hecho económico en los registros al cumplir los criterios contables.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -338,29 +374,32 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Cuál situación corresponde a una medición posterior?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Calcular la depreciación del equipo después de efectuar su reconocimiento inicial.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Determinar el valor de compra del equipo al momento de reconocerlo inicialmente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Estimar el costo del equipo antes de autorizar formalmente su adquisición.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Revisar el presupuesto disponible antes de aprobar la adquisición del equipo.',
               esCorrecta: false,
             },
           ],
@@ -370,28 +409,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es la diferencia entre un soporte contable y un comprobante de contabilidad?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El soporte identifica las cuentas afectadas y el comprobante acredita el hecho económico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El soporte autoriza la operación y el comprobante conserva los documentos que la respaldan.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'El soporte acredita el hecho económico y el comprobante organiza los datos para registrarlo.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El soporte resume el registro contable y el comprobante certifica la ejecución presupuestal.',
               esCorrecta: false,
             },
           ],
@@ -401,28 +444,31 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Una organización compra un servicio a una persona que no está obligada a expedir factura. ¿Qué documento debe generar el comprador cuando resulte aplicable?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El documento soporte en adquisiciones efectuadas a sujetos no obligados a facturar.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Una nota de contabilidad sin identificación del proveedor.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una factura electrónica expedida a nombre del comprador.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Un recibo de caja emitido por la organización adquirente.',
               esCorrecta: false,
             },
           ],
@@ -432,29 +478,33 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Por qué una misma operación debe revisarse desde la normativa comercial, contable, tributaria y solidaria?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El comprobante de egreso que relaciona el pago realizado con los soportes de la operación, efectuado por la empresa en el desarrollo de su objeto social y actividades.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La nota de contabilidad que describe la operación y las cuentas afectadas en el registro, en las actividades concernientes y directamente afectadas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El recibo de caja que documenta el movimiento y la identificación del tercero involucrado en las operaciones de la empresa, en sus respecticas transacciones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Porque cada ámbito regula aspectos diferentes como soportes, reconocimiento, obligaciones fiscales, autorizaciones y finalidad de los recursos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -463,28 +513,199 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué órgano aprueba o imprueba los estados financieros de cierre de una cooperativa?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El área contable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La junta de vigilancia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La asamblea general.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El comité de educación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué conjunto de medidas permite proteger los documentos contables electrónicos frente a accesos no autorizados y pérdida de información?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Establecer permisos de acceso, realizar copias de seguridad y definir procedimientos de recuperación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Organizar los archivos por periodo, asignar nombres estandarizados y mantener un índice documental.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Clasificar los soportes por tipo, conservar una copia local y registrar la fecha de archivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Ordenar los documentos por consecutivo, restringir su edición y depurar versiones duplicadas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué estado financiero presenta los activos, pasivos y patrimonio de la organización en una fecha determinada?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Estado de flujos de efectivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estado de situación financiera.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Estado de resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Informe de ejecución presupuestal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es la función de las políticas contables durante la preparación de los estados financieros?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Establecer los procedimientos para autorizar pagos y registrar operaciones financieras.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Definir los criterios para archivar soportes y conservar documentos contables del periodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar las obligaciones tributarias que deben aplicarse a las operaciones registradas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Orientar el reconocimiento, medición, presentación y revelación de los hechos económicos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Una cooperativa presenta un excedente positivo, pero su efectivo disponible es inferior a las obligaciones de corto plazo. ¿Cuál es la interpretación más adecuada?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El excedente positivo garantiza capacidad suficiente para atender las obligaciones de corto plazo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El excedente debe convertirse en efectivo antes de presentar los estados financieros del periodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Puede existir excedente positivo y, al mismo tiempo, un riesgo de liquidez que requiere gestión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La disponibilidad de efectivo determina por sí sola el resultado financiero obtenido en el periodo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál opción reúne de manera más completa la información que debe incluir un informe de asignación y seguimiento de recursos?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Fuente, presupuesto, ejecución, responsables, soportes, saldos y beneficiarios del periodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Fuente, finalidad, asignación, ejecución, saldo, beneficiarios, resultados y acciones de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Presupuesto, recaudos, pagos, contratos, proveedores, impuestos y conciliaciones del periodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Finalidad, soportes, comprobantes, actas, responsables, beneficiarios y documentos del periodo.',
               esCorrecta: false,
             },
           ],
