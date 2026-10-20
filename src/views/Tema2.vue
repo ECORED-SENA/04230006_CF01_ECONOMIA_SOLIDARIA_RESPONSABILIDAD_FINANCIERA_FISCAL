@@ -270,7 +270,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Cooperativa
-                  p.mb-0 Antes de distribuir los excedentes se compensan pérdidas anteriores y se restablece la reserva utilizada, cuando corresponda. Luego se destina mínimo 20 % a la reserva de protección de aportes, 20 % a educación y 10 % a solidaridad. El remanente puede aplicarse según la ley y los estatutos. La decisión corresponde a la asamblea general.
+                  p.mb-0 Antes de distribuir los excedentes, se compensan pérdidas anteriores y se restablece la reserva utilizada, cuando corresponda. Luego se destina mínimo 20 % a la reserva de protección de aportes, 20 % a educación y 10 % a solidaridad. El remanente puede aplicarse según la ley y los estatutos. La decisión corresponde a la asamblea general.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t2/img14.png', alt='' style="max-width: 500px").m-auto

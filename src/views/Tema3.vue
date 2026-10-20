@@ -532,7 +532,7 @@
           .box___style_3(data-aos="zoom-in")
             h5 Ejemplo aplicado
             p Una cooperativa adquiere un equipo para desarrollar actividades de capacitación. La operación se reconoce cuando la organización obtiene el control del bien y surge el pago o la obligación correspondiente. Antes del registro se revisan la factura, la autorización, la entrega y la política contable aplicable.
-            p La medición inicial comprende el costo de adquisición y los valores directamente atribuibles según el marco aplicable. Posteriormente se reconoce la depreciación y se evalúan otras situaciones que puedan afectar su valor.
+            p La medición inicial comprende el costo de adquisición y los valores directamente atribuibles según el marco aplicable. Posteriormente, se reconoce la depreciación y se evalúan otras situaciones que puedan afectar su valor.
             p A continuación, se presenta una secuencia práctica para analizar una operación antes de incorporarla en la información financiera:
             .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
               h5 Tabla 10.
@@ -685,8 +685,8 @@
           .box___style_3(data-aos="zoom-in")
             h5 Ejemplo aplicado
             p Una cooperativa presta un servicio de capacitación por #[b $1.200.000] el 20 de agosto y acuerda recibir el pago el 5 de septiembre. Si en agosto se cumplen las condiciones de reconocimiento del ingreso, surge una cuenta por cobrar por el mismo valor.
-            p.mb-0 Cuando se recibe el pago en septiembre, aumenta bancos y disminuye la cuenta por cobrar. El recaudo no se registra como un nuevo ingreso.
-      p.mb-5 Antes de incorporar una operación en la contabilidad se deben revisar los siguientes aspectos:
+            p.mb-0 Cuando se recibe el pago en septiembre, aumentan bancos y disminuye la cuenta por cobrar. El recaudo no se registra como un nuevo ingreso.
+      p.mb-5 Antes de incorporar una operación en la contabilidad, se deben revisar los siguientes aspectos:
       .row.justify-content-center.mb-5
         .col-xl-10
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
@@ -738,7 +738,7 @@
       p.mb-5 Para profundizar en la descripción, análisis, aplicación de la partida doble y registro secuencial de una operación, consulte el siguiente video:
       figure(data-aos="zoom-in").mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/7nZ9ftA6SGg" title="Del hecho al registro: análisis de una operación a crédito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video Video. Del hecho al registro: análisis de una operación a crédito
 
 </template>

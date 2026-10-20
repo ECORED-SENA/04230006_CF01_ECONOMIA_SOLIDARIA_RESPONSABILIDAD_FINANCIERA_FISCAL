@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Gestión financiera solidaria y hechos económicos',
     Description:
-      'La administración de recursos en organizaciones de economía solidaria exige comprender los fondos monetarios, la destinación de excedentes, las responsabilidades de los órganos de administración y control, y el registro de los hechos económicos. Este componente desarrolla criterios para reglamentar, ejecutar y hacer seguimiento a fondos solidarios, elaborar soportes contables y presentar estados financieros, promoviendo transparencia, participación democrática, sostenibilidad y cumplimiento normativo en la gestión financiera colectiva.',
+      'La administración de recursos en organizaciones de economía solidaria exige comprender los fondos monetarios, la destinación de excedentes, las responsabilidades de los órganos de administración y control y el registro de los hechos económicos. Este componente desarrolla criterios para reglamentar, ejecutar y hacer seguimiento a fondos solidarios, elaborar soportes contables y presentar estados financieros, promoviendo transparencia, participación democrática, sostenibilidad y cumplimiento normativo en la gestión financiera colectiva.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -247,7 +247,7 @@ export default {
     {
       termino: 'Activo',
       significado:
-        'recurso económico presente controlado por la organización como resultado de hechos anteriores y con potencial para producir beneficios económicos.',
+        'recurso económico presente, controlado por la organización como resultado de hechos anteriores y con potencial para producir beneficios económicos.',
     },
     {
       termino: 'Aporte social',

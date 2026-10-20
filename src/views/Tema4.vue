@@ -417,7 +417,7 @@
           .box___style_3(data-aos="zoom-in")
             h5 Ejemplo aplicado
             p Una cooperativa contrata un servicio de capacitación con cargo al fondo de educación. Desde el ámbito comercial conserva el contrato, la factura y los comprobantes; desde el contable reconoce la operación conforme al periodo y al marco aplicable.
-            p.mb-0 En materia tributaria verifica el documento correspondiente y las retenciones, cuando procedan. Desde la regulación solidaria comprueba la finalidad del fondo, la disponibilidad y la autorización de la instancia competente.
+            p.mb-0 En materia tributaria, verifica el documento correspondiente y las retenciones, cuando procedan. Desde la regulación solidaria, comprueba la finalidad del fondo, la disponibilidad y la autorización de la instancia competente.
       p.mb-5 Para identificar las fuentes aplicables sin convertir el análisis en una recopilación de normas, puede seguirse esta ruta general:
       .bg___color_2
         .px-5
