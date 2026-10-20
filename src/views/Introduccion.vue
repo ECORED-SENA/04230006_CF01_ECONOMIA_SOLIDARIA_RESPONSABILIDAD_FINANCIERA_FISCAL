@@ -21,6 +21,7 @@
           figure
             img(src='@/assets/curso/temas/intro/img2.svg', alt='' style="width: 85px").m-auto
 
+
 </template>
 
 <script>
